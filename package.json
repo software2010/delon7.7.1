@@ -1,8 +1,8 @@
 {
-  "name": "delon",
+  "name": "delon-hh",
   "version": "7.7.1",
   "typings": "index.d.ts",
-  "description": "Delon is a set of essential modules for NG-ALAIN.",
+  "description": "Delon is a set of essential modules for NG-ALAIN. support angular 7 ",
   "keywords": [
     "delon",
     "ng-alain",
@@ -11,14 +11,14 @@
     "ng-zorro-antd",
     "angular"
   ],
-  "author": "cipchk <cipchk@qq.com>",
+  "author": "tom <software2010@126.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ng-alain/ng-alain/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ng-alain/delon.git"
+    "url": "git+https://github.com/software2010/delon7.7.1.git"
   },
   "homepage": "https://ng-alain.com",
   "scripts": {
