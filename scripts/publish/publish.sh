@@ -52,4 +52,3 @@ if [[ ${NEXT} == true ]]; then
 else
   publishToMaster
 fi
-syncTaobao
