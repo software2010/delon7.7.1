@@ -26,7 +26,7 @@ clone() {
   mkdir -p ${ROOT}
   cd ${DIST}
   echo ">>> Clone delon & cli dist..."
-  git clone --depth 1 https://github.com/ng-alain/delon-builds.git
+  git clone --depth 1 https://github.com/software2010/delon7.7.1.git
 }
 
 publishToMaster() {
@@ -42,8 +42,8 @@ publishToNext() {
 }
 
 syncTaobao() {
-  (cd ${ROOT}/@delon; for p in `ls .`; do curl -X PUT https://npm.taobao.org/sync/@delon/$p?sync_upstream=true; done)
-  curl -X PUT https://npm.taobao.org/sync/ng-alain?sync_upstream=true
+  #(cd ${ROOT}/@delon; for p in `ls .`; do curl -X PUT https://npm.taobao.org/sync/@delon/$p?sync_upstream=true; done)
+  #curl -X PUT https://npm.taobao.org/sync/ng-alain?sync_upstream=true
 }
 
 clone
