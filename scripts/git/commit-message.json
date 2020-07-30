@@ -1,0 +1,30 @@
+{
+  "maxLength": 100,
+  "types": [
+    "build",
+    "ci",
+    "docs",
+    "feat",
+    "fix",
+    "perf",
+    "refactor",
+    "release",
+    "style",
+    "test",
+    "chore",
+    "revert"
+  ],
+  "scopes": [
+    "abc",
+    "acl",
+    "auth",
+    "cache",
+    "chart",
+    "form",
+    "mock",
+    "cli",
+    "testing",
+    "theme",
+    "util"
+  ]
+}
