@@ -145,10 +145,5 @@
     "lint-staged": "^8.1.0",
     "ng-alain-codelyzer": "^0.0.1",
     "ng-alain-sts": "^0.0.1"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "node ./scripts/git/commit-msg.js -E HUSKY_GIT_PARAMS"
-    }
   }
 }
