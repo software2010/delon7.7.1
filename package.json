@@ -1,6 +1,6 @@
 {
   "name": "delon-hh",
-  "version": "7.7.1",
+  "version": "7.7.2",
   "typings": "index.d.ts",
   "description": "Delon is a set of essential modules for NG-ALAIN. support angular 7 ",
   "keywords": [
