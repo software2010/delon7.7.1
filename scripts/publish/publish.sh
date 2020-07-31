@@ -31,20 +31,14 @@ clone() {
 
 publishToMaster() {
   (cd ${ROOT}/@delon; for p in `ls .`; do npm publish --access public $p; done)
-  cd ${ROOT}/ng-alain
-  npm publish --access public
+
 }
 
 publishToNext() {
   (cd ${ROOT}/@delon; for p in `ls .`; do npm publish $p --access public --tag next; done)
-  cd ${ROOT}/ng-alain
-  npm publish --access public --tag next
+
 }
 
-syncTaobao() {
-  #(cd ${ROOT}/@delon; for p in `ls .`; do curl -X PUT https://npm.taobao.org/sync/@delon/$p?sync_upstream=true; done)
-  #curl -X PUT https://npm.taobao.org/sync/ng-alain?sync_upstream=true
-}
 
 clone
 if [[ ${NEXT} == true ]]; then
