@@ -138,7 +138,7 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
     "stylelint-order": "^3.0.0",
     "webpack-bundle-analyzer": "^3.3.2",
-    "xlsx": "^0.14.2",
+    "xlsx": "^0.17.0",
     "screenfull": "^4.2.0",
     "less-bundle-promise": "^1.0.7",
     "@ngx-translate/http-loader": "^4.0.0",
